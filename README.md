@@ -1,6 +1,10 @@
 ﻿# 🍎 IMC Calculator
  
- ## 👨‍💻 Technologies 
+ ## App:
+ 
+ https://imc-calculator-five.vercel.app
+ 
+ ### 👨‍💻 Technologies 
  
  - HTML5
  - CSS3
