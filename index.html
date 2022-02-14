@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <span>Calcule seu IMC</span>
+    </header>
+    <main id="bg">
+        <section>
+            <label class="label" for="peso">Insira seu peso em kg</label>
+            <input type="number" id="peso" placeholder="72">
+            <label class="label" for="altura">Insira sua altura em cm</label>
+            <input type="text" placeholder="170" id="altura">
+            <button class="btn" onclick="getResult()">Calcular</button>
+            <div class="resultado" id="resultadobox">
+                <span id="resultado"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/ericdmelo/"><span>Eric Melo 2022</span></a>
+    </footer>
+</body>
+
+
+<script src="script.js"></script>
+</html>
